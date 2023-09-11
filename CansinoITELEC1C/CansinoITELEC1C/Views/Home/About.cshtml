@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var name = "Noel Angelo Cansino";
+    var email = "noelangelo.cansino.cics@ust.edu.ph";
+    var age = "20";
+    var role = "Full-Stack Web Developer";
+    var phone = "(+63) 966-946-5536";
+
+
+}
+
+<h1>About Page</h1>
+
+<div class="container" id="aboutPage">
+    <div class="row">
+        <div class="col-md-4">
+        <img src="~/images/profilePicture.jpg" />
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7" id="paragraphs">
+            <p style="color:antiquewhite;">
+                Hi! My name is <b>@name</b>, I am <b>@age</b> years old, I am <b>@role</b> for InnoNet and also the Lead Developer for InnoNet
+                and this is my own ASP.NET website.
+                <hr />
+                You can contact me thru email or phone via <b>@email</b> / <b>@phone</b>.
+            </p>
+        </div>
+    </div>
+</div>

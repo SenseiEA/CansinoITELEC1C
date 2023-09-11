@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    DateTime date = DateTime.Now;
+}
+
+<div class="text-center" id="indexPage">
+    <h1 class="display-4">Welcome to my Domain!</h1>
+    <p>@DateTime.Now</p>
+    @{
+        if(date.Hour < 12)
+        {
+            <p>It is morning on @DateTime.Now.ToString("dddd, dd MMMM").</p>
+            <img src="~/images/morningtime.jpg" />
+        }
+        else if(date.Hour < 6)
+        {
+            <p>It is afternoon on @DateTime.Now.ToString("dddd, dd MMMM").</p>
+        }
+        else if(date.Hour > 12)
+        {
+            <p>It is evening on @DateTime.Now.ToString("dddd, dd MMMM").</p>
+            <img src="~/images/nighttime.jpg" />
+        }
+    }
+
+</div>

@@ -1,0 +1,33 @@
+﻿.container .row img{
+    border-radius: 300px;
+    border-block: 5px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+.container{
+    font-family: 'Lucida Console';
+    margin-top: 3vh;
+    padding: 0 auto;
+
+
+}
+
+#paragraphs {
+    color: white;
+}
+
+#indexPage img{
+    width: 800px;
+    height: 400px;
+}
+
+#aboutPage {
+    margin: 0;
+    padding: 10px;
+    border: solid 5px black;
+    border-radius: 30px;
+    background-image: url("/images/morningtime.jpg");
+    background-size: cover;
+    background-position: center;
+}
