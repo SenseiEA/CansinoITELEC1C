@@ -1,0 +1,52 @@
+﻿
+
+
+@{
+    // var Num = -10;
+    // bool IsTenured = true;
+    // var phrase = "Hello CICS Student";
+    // var email = "noelangelo.cansino.cics@ust.edu.ph";
+    // var AtPos = email.IndexOf("@");
+
+    // string[] Cut = email.Split("@");
+    var name = "Noel";
+}
+
+<h1>Student List</h1>
+
+<h2>@name</h2>
+
+@*
+    if(Num < 0)
+{
+    <h2 style="color:red;">@Num is a negative number</h2>
+}
+else
+{
+    <h2>@Num is a positive number</h2>
+}
+
+<h2>@phrase.Length</h2>
+<h2>@phrase.Substring(6,4)</h2>
+<h2>@AtPos</h2>
+<p>@Cut[0]</p>
+<p>@Cut[1]</p>
+*@
+
+<table>
+    <tr>
+        <td>ID: </td>
+        <td>@ViewBag.Student</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Name</th>
+    </tr>
+</table>
+
+@foreach (var student in Model)
+{
+    
+}

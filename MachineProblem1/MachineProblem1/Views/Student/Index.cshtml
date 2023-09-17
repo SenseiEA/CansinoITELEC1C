@@ -1,0 +1,53 @@
+﻿
+@{
+    var Name = "Noel Cansino";
+    var Email = "noelangelo.cansino.cics@ust.edu.ph";
+    DateTime Birthday = DateTime.Parse("12/10/2002");
+    var PrelimGrade = 85;
+    var FinalGrade = 90;
+    var SemGrade = (PrelimGrade + FinalGrade) / 2;
+
+}
+
+<h1>Index</h1>
+
+<p>Hi I am @Name my email is @Email and my birthday is @Birthday</p>
+
+<table border="1">
+    <tr>
+        <td>Name</td>
+        <td>@Name</td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td>@Email</td>
+    </tr>
+    <tr>
+        <td>PrelimGrade</td>
+        <td>@PrelimGrade</td>
+    </tr>
+    <tr>
+        <td>FinalGrade</td>
+        <td>@FinalGrade</td>
+    </tr>
+    <tr>
+        <td>SemGrade</td>
+        <td>@SemGrade</td>
+    </tr>
+    <tr>
+        <td>Remarks</td>
+        <td></td>
+    </tr>
+</table>
+
+@{
+    var num = 2;
+    if (num % 2 == 0)
+    {
+        <h2>@num is Even</h2>
+    }
+    else
+    {
+        <h2>@num is Odd</h2>
+    }
+}
