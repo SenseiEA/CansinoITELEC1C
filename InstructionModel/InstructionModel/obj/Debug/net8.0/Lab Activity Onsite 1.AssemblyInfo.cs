@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lab Activity Onsite 1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c583c7f5d8d9caa7fc01820604a7b8640a175a65")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lab Activity Onsite 1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lab Activity Onsite 1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

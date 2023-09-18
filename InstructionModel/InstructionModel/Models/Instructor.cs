@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 
 namespace InstructionModel.Models
 {
@@ -25,7 +26,5 @@ namespace InstructionModel.Models
 
         public DateOnly HiringDate { get; set; }
 
-        public string Email { get; set; }
-       
     }
 }
