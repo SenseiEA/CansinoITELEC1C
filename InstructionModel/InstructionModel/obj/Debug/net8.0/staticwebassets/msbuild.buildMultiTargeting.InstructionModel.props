@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\InstructionModel.props" />
+</Project>
