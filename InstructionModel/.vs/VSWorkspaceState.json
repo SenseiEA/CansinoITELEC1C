@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\InstructionModel\\Controllers",
+    "\\InstructionModel\\Models",
+    "\\InstructionModel\\Views",
+    "\\InstructionModel\\Views\\Instructor",
+    "\\InstructionModel\\Views\\Student",
+    "\\InstructionModel\\wwwroot"
+  ],
+  "SelectedNode": "\\InstructionModel",
+  "PreviewInSolutionExplorer": false
+}
