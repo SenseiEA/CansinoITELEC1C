@@ -1,11 +1,8 @@
+C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.exe
+C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.dll
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\appsettings.json
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.staticwebassets.runtime.json
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.exe
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.deps.json
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.runtimeconfig.json
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.dll
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Lab Activity Onsite 1.pdb
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -219,5 +216,3 @@ C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\obj\Debug\net8.0\
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\obj\Debug\net8.0\Lab Activity Onsite 1.dll
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\obj\Debug\net8.0\refint\Lab Activity Onsite 1.dll
 C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\obj\Debug\net8.0\Lab Activity Onsite 1.pdb
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\obj\Debug\net8.0\Lab Activity Onsite 1.genruntimeconfig.cache
-C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\obj\Debug\net8.0\ref\Lab Activity Onsite 1.dll

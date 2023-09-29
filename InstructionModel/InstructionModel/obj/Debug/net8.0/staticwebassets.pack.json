@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\LabActivtity2.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\wwwroot\\css\\background.css",
+      "PackagePath": "staticwebassets\\css\\background.css"
+    },
+    {
       "Id": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\wwwroot\\images\\ayatowallpaper2.png",
+      "PackagePath": "staticwebassets\\images\\ayatowallpaper2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\wwwroot\\images\\ayatowallpaperhd.jpg",
+      "PackagePath": "staticwebassets\\images\\ayatowallpaperhd.jpg"
     },
     {
       "Id": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\wwwroot\\js\\site.js",

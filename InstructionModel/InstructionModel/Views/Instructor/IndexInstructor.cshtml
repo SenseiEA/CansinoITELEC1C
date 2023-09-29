@@ -6,10 +6,10 @@
         <a class="btn btn-primary mb-3" asp-action="AddInstructor">Add Instructor</a>
 
         <tr>
-            <th colspan="8">Instructor</th>
+            <th colspan="9">Instructor</th>
         </tr>
 
-        <tr>
+        <tr class="text-center">
             <td>ID</td>
             <td>First Name</td>
             <td>Last Name</td>
@@ -18,19 +18,21 @@
             <td>Hiring Date</td>
             <td>Details</td>
             <td>Edit</td>
+            <td>Delete</td>
 
         </tr>
     @foreach (var instructor in Model)
     {
-        <tr>
+        <tr class="text-center fw-light">
             <td>@instructor.Id </td>
             <td>@instructor.FirstName</td>
             <td>@instructor.LastName</td>
             <td>@instructor.IsTenured</td>
             <td>@instructor.Rank</td>
             <td>@instructor.HiringDate</td>
-            <td><a asp-action="ShowDetailInstructor" asp-route-id="@instructor.Id">Show Details</a></td>
-            <td><a asp-action="EditInstructor" asp-route-id="@instructor.Id">Edit Details</a></td>
+            <td><a asp-action="ShowDetailInstructor" asp-route-id="@instructor.Id" class="btn btn-outline-primary">Show Details</a></td>
+            <td><a asp-action="EditInstructor" asp-route-id="@instructor.Id" class="btn btn-outline-secondary">Edit Details</a></td>
+            <td><a asp-action="DeleteInstructor" asp-route-id="@instructor.Id" class="btn btn-outline-danger">Delete</a></td>
         </tr>
     }
 </table>

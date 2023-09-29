@@ -9,23 +9,25 @@
             <th colspan="7">Student</th>
         </tr>
 
-        <tr>
+        <tr class="text-center">
             <td>ID</td>
             <td>Name</td>
             <td>Course</td>
             <td>Date Enrollment</td>
             <td>Details</td>
             <td>Edit</td>
+            <td>Delete</td>
         </tr>
     @foreach (var student in Model)
     {
-        <tr>
+        <tr class="text-center fw-light">
             <td>@student.Id </td>
             <td>@student.Name</td>
             <td>@student.Course</td>
             <td>@student.DateEnrolled</td>
-            <td><a asp-action="ShowDetailStudent" asp-route-id="@student.Id">Show Details</a></td>
-            <td><a asp-action="EditStudent" asp-route-id="@student.Id">Edit Details</a></td>
+            <td><a asp-action="ShowDetailStudent" asp-route-id="@student.Id" class="btn btn-outline-primary">Show Details</a></td>
+            <td><a asp-action="EditStudent" asp-route-id="@student.Id" class="btn btn-outline-secondary">Edit Details</a></td>
+            <td><a asp-action="DeleteStudent" asp-route-id="@student.Id" class="btn btn-outline-danger">Delete</a></td>
         </tr>
     }
 </table>
