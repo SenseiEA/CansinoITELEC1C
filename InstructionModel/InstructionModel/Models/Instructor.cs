@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InstructionModel.Models
 {
@@ -24,6 +25,7 @@ namespace InstructionModel.Models
 
         public Rank Rank { get; set; }
 
+        [NotMapped]
         public DateOnly HiringDate { get; set; }
 
     }

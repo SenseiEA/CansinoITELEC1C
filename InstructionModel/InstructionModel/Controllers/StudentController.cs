@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using InstructionModel.Models;
 using LabActivtity2.Services;
+
+
 namespace InstructionModel.Controllers
 {
     public class StudentController : Controller
@@ -11,6 +13,7 @@ namespace InstructionModel.Controllers
         {   
             _fakeData = fakeData;
         }
+
         public IActionResult IndexStudent()
         {
             return View(_fakeData.StudentList);

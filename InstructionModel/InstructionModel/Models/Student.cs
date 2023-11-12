@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InstructionModel.Models
 { 
@@ -14,6 +15,7 @@ namespace InstructionModel.Models
 
         public string Name { get; set; }
 
+        [NotMapped]
         public DateOnly DateEnrolled { get; set; }
 
         public Course Course { get; set; }

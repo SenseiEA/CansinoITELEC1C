@@ -43,10 +43,10 @@ namespace LabActivtity2.Services
                 {
                     Id = 4,
                     FirstName = "Furina",
-                    LastName = "Focalors",
+                    LastName = "de Fontaine",
                     Rank = Rank.AssociateProfessor,
                     IsTenured = IsTenured.Probationary,
-                    HiringDate = DateOnly.Parse("01/12/2023")
+                    HiringDate = DateOnly.Parse("08/11/2023")
                 },
 
             };
