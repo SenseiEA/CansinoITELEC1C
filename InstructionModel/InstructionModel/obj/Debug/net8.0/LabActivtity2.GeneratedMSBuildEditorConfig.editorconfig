@@ -9,87 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LabActivtity2
 build_property.RootNamespace = LabActivtity2
-build_property.ProjectDir = C:\Users\Sensei\source\repos\InstructionModel\InstructionModel\
+build_property.ProjectDir = C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Sensei\source\repos\InstructionModel\InstructionModel
+build_property.MSBuildProjectDirectory = C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Home/Index.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Home/Privacy.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/AddInstructor.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/AddInstructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxBZGRJbnN0cnVjdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/DeleteInstructor.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/DeleteInstructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxEZWxldGVJbnN0cnVjdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/EditInstructor.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/EditInstructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0SW5zdHJ1Y3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/Index.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/IndexInstructor.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/IndexInstructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleEluc3RydWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/ShowDetail.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/ShowDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxTaG93RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Instructor/ShowDetailInstructor.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/ShowDetailInstructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxTaG93RGV0YWlsSW5zdHJ1Y3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Shared/Error.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Student/AddStudent.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Student/AddStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxBZGRTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Student/DeleteStudent.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Student/DeleteStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGVTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Student/EditStudent.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Student/EditStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0U3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Student/IndexStudent.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Student/IndexStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleFN0dWRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Student/ShowDetailStudent.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Student/ShowDetailStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTaG93RGV0YWlsU3R1ZGVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/_ViewImports.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/_ViewStart.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Sensei/source/repos/InstructionModel/InstructionModel/Views/Shared/_Layout.cshtml]
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rw5lc1apho

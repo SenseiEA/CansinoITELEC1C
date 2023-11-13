@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\LabActivtity2.csproj": {}
+    "C:\\Users\\Sensei\\Documents\\GitHub\\CansinoITELEC1C\\InstructionModel\\InstructionModel\\LabActivtity2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\LabActivtity2.csproj": {
+    "C:\\Users\\Sensei\\Documents\\GitHub\\CansinoITELEC1C\\InstructionModel\\InstructionModel\\LabActivtity2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\LabActivtity2.csproj",
+        "projectUniqueName": "C:\\Users\\Sensei\\Documents\\GitHub\\CansinoITELEC1C\\InstructionModel\\InstructionModel\\LabActivtity2.csproj",
         "projectName": "LabActivtity2",
-        "projectPath": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\LabActivtity2.csproj",
+        "projectPath": "C:\\Users\\Sensei\\Documents\\GitHub\\CansinoITELEC1C\\InstructionModel\\InstructionModel\\LabActivtity2.csproj",
         "packagesPath": "C:\\Users\\Sensei\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\obj\\",
+        "outputPath": "C:\\Users\\Sensei\\Documents\\GitHub\\CansinoITELEC1C\\InstructionModel\\InstructionModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sensei\\AppData\\Roaming\\NuGet\\NuGet.Config",

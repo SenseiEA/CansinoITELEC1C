@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BgFaRTwa0s2zMxvliyGfb44y/QtDEg5LLySNtWVlnEgWn6VFnDa/patFvFv4+ojs8Qsv52dpCh6nbfa8pOnZvw==",
+  "dgSpecHash": "U3DzNGPpOHUkpDfJk46LpbLXx96dfm7tTjFU0bV9iPE+DKRtRQ7s/H33njjAFmDI3nJG0oE5ypYKwr5rCIjyVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sensei\\source\\repos\\InstructionModel\\InstructionModel\\LabActivtity2.csproj",
+  "projectFilePath": "C:\\Users\\Sensei\\Documents\\GitHub\\CansinoITELEC1C\\InstructionModel\\InstructionModel\\LabActivtity2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sensei\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Sensei\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
