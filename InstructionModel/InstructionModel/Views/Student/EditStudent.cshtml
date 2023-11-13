@@ -2,15 +2,12 @@
 @model Student;
 
 <h1>Edit Student</h1>
-
+<div asp-validation-summary="All" class="text-danger"></div>
 <form asp-action="EditStudent" method="post" class="fw-bold">
-    <div class="form-group">
-        <label asp-for="Id">ID</label>
-        <input asp-for="Id" class="form-control" disabled/>
-    </div>
     <div class="form-group">
         <label asp-for="Name">Name</label>
         <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Course">Course</label>
@@ -19,6 +16,7 @@
     <div class="form-group">
         <label asp-for="DateEnrolled">Date Enrolled</label>
         <input type="date" asp-for="DateEnrolled" class="form-control" />
+        <span asp-validation-for="DateEnrolled" class="text-danger"></span>
     </div>
     <br />
     <button type="submit" class="btn btn-primary">Update</button>

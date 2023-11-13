@@ -38,6 +38,9 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult AddInstructor(Instructor newInstructor)
         {
+            if (!ModelState.IsValid) // if the data is invalid
+                return View();
+
             _dbContext.Instructors.Add(newInstructor);
             _dbContext.SaveChanges();
 
@@ -63,6 +66,9 @@ namespace InstructionModel.Controllers
             Instructor? instructor = _dbContext.Instructors.FirstOrDefault(it => it.Id == instructorUpdate.Id);
             if (instructor != null)
             {
+                if (!ModelState.IsValid) // if the data is invalid
+                    return View();
+
                 instructor.Id = instructorUpdate.Id;
                 instructor.FirstName = instructorUpdate.FirstName; 
                 instructor.LastName = instructorUpdate.LastName;

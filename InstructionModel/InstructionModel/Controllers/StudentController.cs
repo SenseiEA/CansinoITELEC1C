@@ -1,27 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using InstructionModel.Models;
 using LabActivtity2.Services;
+using LabActivtity2.Data;
 
 
 namespace InstructionModel.Controllers
 {
     public class StudentController : Controller
     {
-        private readonly IMyFakeDataService _fakeData;
+        private readonly AppDbContext _dbContext;
 
-        public StudentController (IMyFakeDataService fakeData)
+        public StudentController (AppDbContext dbContext)
         {   
-            _fakeData = fakeData;
+            _dbContext = dbContext;
         }
 
         public IActionResult IndexStudent()
         {
-            return View(_fakeData.StudentList);
+            return View(_dbContext.Students);
         }
 
         public IActionResult ShowDetailStudent(int id)
         {
-            Student? student = _fakeData.StudentList.FirstOrDefault(st => st.Id == id);
+            Student? student = _dbContext.Students.FirstOrDefault(st => st.Id == id);
             if (student != null)
             {
                 return View(student);
@@ -37,7 +38,11 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult AddStudent(Student newStudent)
         {
-            _fakeData.StudentList.Add(newStudent);
+            if (!ModelState.IsValid) // if the data is invalid
+                return View();
+
+            _dbContext.Students.Add(newStudent);
+            _dbContext.SaveChanges();
 
             return RedirectToAction("IndexStudent");
         }
@@ -46,7 +51,7 @@ namespace InstructionModel.Controllers
         [HttpGet]
         public IActionResult EditStudent(int id)
         {
-             Student? student = _fakeData.StudentList.FirstOrDefault(st => st.Id == id);
+             Student? student = _dbContext.Students.FirstOrDefault(st => st.Id == id);
                 if (student != null)
                 {
                     return View(student);
@@ -58,13 +63,19 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult EditStudent(Student studentUpdate)
         {
-            Student? student = _fakeData.StudentList.FirstOrDefault(st => st.Id == studentUpdate.Id);
+            Student? student = _dbContext.Students.FirstOrDefault(st => st.Id == studentUpdate.Id);
             if(student != null)
             {
+                if (!ModelState.IsValid) // if the data is invalid
+                    return View();
+
                 student.Id = studentUpdate.Id;
                 student.Name = studentUpdate.Name;
                 student.Course = studentUpdate.Course;
                 student.DateEnrolled = studentUpdate.DateEnrolled;
+                _dbContext.SaveChanges();
+
+
 
             }
             return RedirectToAction("IndexStudent");
@@ -73,7 +84,7 @@ namespace InstructionModel.Controllers
         [HttpGet]
         public IActionResult DeleteStudent(Student studentDelete)
         {
-            Student? student = _fakeData.StudentList.FirstOrDefault(it => it.Id == studentDelete.Id);
+            Student? student = _dbContext.Students.FirstOrDefault(it => it.Id == studentDelete.Id);
             if (student != null)
             {
                 return View(student);
@@ -85,10 +96,10 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult DeleteStudent(int id)
         {
-            Student? student = _fakeData.StudentList.FirstOrDefault(it => it.Id == id);
+            Student? student = _dbContext.Students.FirstOrDefault(it => it.Id == id);
             if (student != null)
             {
-                _fakeData.StudentList.Remove(student);
+                _dbContext.Students.Remove(student);
                 return RedirectToAction("IndexStudent");
             }
 

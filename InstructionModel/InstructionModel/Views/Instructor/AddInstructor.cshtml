@@ -3,25 +3,21 @@
 
 <h1>Add Instructor</h1>
 <br />
+<div asp-validation-summary="All" class="text-danger"></div>
 <form asp-action="AddInstructor" method="post">
-    <div class="form-group">
-        <label asp-for="Id">ID</label>
-        <input asp-for="Id" class="form-control"/>
-    </div>
     <div class="form-group">
         <label asp-for="FirstName">First Name</label>
         <input asp-for="FirstName" class="form-control"/>
+        <span asp-validation-for="FirstName" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="LastName">Last Name</label>
         <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="IsTenured">Are they Tenured</label><br/>
-        <label for="html">Permanent</label><br />
-        <input type="radio" asp-for="IsTenured" value="HTML"/><br />
-        <label for="css">Probationary</label><br />
-        <input type="radio" asp-for="IsTenured" value="CSS"/>
+        <select asp-for="IsTenured" asp-items="Html.GetEnumSelectList(typeof(IsTenured))" class="form-control"></select>
     </div>
     <div class="form-group">
         <label asp-for="Rank">Rank</label>
