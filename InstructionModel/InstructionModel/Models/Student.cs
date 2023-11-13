@@ -8,7 +8,7 @@ namespace InstructionModel.Models
     {
         BSCS, BSIT, BSIS
     }
-
+    
     public class Student
     {
         public int Id { get; set; }
