@@ -25,8 +25,7 @@ namespace InstructionModel.Models
 
         public Rank Rank { get; set; }
 
-        [NotMapped]
-        public DateOnly HiringDate { get; set; }
+        public DateTime HiringDate { get; set; }
 
     }
 }

@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container. might remove later
 // Add services to the container.
-builder.Services.AddSingleton<IMyFakeDataService, MyFakeDataService>(   );
+//builder.Services.AddSingleton<IMyFakeDataService, MyFakeDataService>();
 
 //Database Connection Service
 builder.Services.AddDbContext<AppDbContext>(options =>

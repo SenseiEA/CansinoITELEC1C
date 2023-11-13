@@ -20,35 +20,35 @@ namespace LabActivtity2.Data
                     Id = 1,
                     Name = "Heizou Shikanoin",
                     Course = Course.BSIS,
-                    DateEnrolled = DateOnly.Parse("13/07/2022")
+                    DateEnrolled = DateTime.Parse("13/07/2022")
                 },
                 new Student()
                 {
                     Id = 2,
                     Name = "Ayaka Kamisato",
                     Course = Course.BSCS,
-                    DateEnrolled = DateOnly.Parse("17/07/2021")
+                    DateEnrolled = DateTime.Parse("17/07/2021")
                 },
                 new Student()
                 {
                     Id = 3,
                     Name = "Yoimiya Naganohara",
                     Course = Course.BSIS,
-                    DateEnrolled = DateOnly.Parse("10/08/2021")
+                    DateEnrolled = DateTime.Parse("10/08/2021")
                 },
                 new Student()
                 {
                     Id = 4,
                     Name = "Kokomi Sangonomiya",
                     Course = Course.BSIT,
-                    DateEnrolled = DateOnly.Parse("17/07/2021")
+                    DateEnrolled = DateTime.Parse("17/07/2021")
                 },
                 new Student()
                 {
                     Id = 5,
                     Name = "Itto Arataki",
                     Course = Course.BSIS,
-                    DateEnrolled = DateOnly.Parse("14/12/2021")
+                    DateEnrolled = DateTime.Parse("14/12/2021")
                 }
                 );
 
@@ -60,7 +60,7 @@ namespace LabActivtity2.Data
                      LastName = "Cansino",
                      Rank = Rank.Professor,
                      IsTenured = IsTenured.Permanent,
-                     HiringDate = DateOnly.Parse("28/09/2020")
+                     HiringDate = DateTime.Parse("28/09/2020")
                  },
                 new Instructor()
                 {
@@ -69,7 +69,7 @@ namespace LabActivtity2.Data
                     LastName = "Kamisato",
                     Rank = Rank.AssistantProfessor,
                     IsTenured = IsTenured.Permanent,
-                    HiringDate = DateOnly.Parse("17/07/2021")
+                    HiringDate = DateTime.Parse("17/07/2021")
                 },
                 new Instructor()
                 {
@@ -78,7 +78,7 @@ namespace LabActivtity2.Data
                     LastName = "Kusanali",
                     Rank = Rank.AssistantProfessor,
                     IsTenured = IsTenured.Permanent,
-                    HiringDate = DateOnly.Parse("03/11/2022")
+                    HiringDate = DateTime.Parse("03/11/2022")
                 },
                 new Instructor()
                 {
@@ -87,7 +87,7 @@ namespace LabActivtity2.Data
                     LastName = "de Fontaine",
                     Rank = Rank.AssociateProfessor,
                     IsTenured = IsTenured.Probationary,
-                    HiringDate = DateOnly.Parse("08/11/2023")
+                    HiringDate = DateTime.Parse("08/11/2023")
                 }
                 );
         }

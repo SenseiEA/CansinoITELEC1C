@@ -15,8 +15,7 @@ namespace InstructionModel.Models
 
         public string Name { get; set; }
 
-        [NotMapped]
-        public DateOnly DateEnrolled { get; set; }
+        public DateTime DateEnrolled { get; set; }
 
         public Course Course { get; set; }
        

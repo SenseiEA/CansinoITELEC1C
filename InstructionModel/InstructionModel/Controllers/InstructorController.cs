@@ -2,26 +2,27 @@
 using InstructionModel.Models;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using LabActivtity2.Services;
+using LabActivtity2.Data;
 
 namespace InstructionModel.Controllers
 {
     public class InstructorController : Controller
     {
-        private readonly IMyFakeDataService _fakeData;
+        private readonly AppDbContext _dbContext;
 
-        public InstructorController(IMyFakeDataService fakeData)
+        public InstructorController(AppDbContext dbContext)
         {
-            _fakeData = fakeData;
+            _dbContext = dbContext;
         }
 
         public IActionResult IndexInstructor()
         {
-            return View(_fakeData.InstructorList);
+            return View(_dbContext.Instructors);
         }
 
         public IActionResult ShowDetailInstructor(int id)
         {
-            Instructor? instructor = _fakeData.InstructorList.FirstOrDefault(it => it.Id == id);
+            Instructor? instructor = _dbContext.Instructors.FirstOrDefault(it => it.Id == id);
             if (instructor != null)
             {
                 return View(instructor);
@@ -37,7 +38,8 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult AddInstructor(Instructor newInstructor)
         {
-            _fakeData.InstructorList.Add(newInstructor);
+            _dbContext.Instructors.Add(newInstructor);
+            _dbContext.SaveChanges();
 
             return RedirectToAction("IndexInstructor");
         }
@@ -46,7 +48,7 @@ namespace InstructionModel.Controllers
         [HttpGet]
         public IActionResult EditInstructor(int id)
         {
-            Instructor? instructor = _fakeData.InstructorList.FirstOrDefault(it => it.Id == id);
+            Instructor? instructor = _dbContext.Instructors.FirstOrDefault(it => it.Id == id);
             if (instructor != null)
             {
                 return View(instructor);
@@ -58,7 +60,7 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult EditInstructor(Instructor instructorUpdate)
         {
-            Instructor? instructor = _fakeData.InstructorList.FirstOrDefault(it => it.Id == instructorUpdate.Id);
+            Instructor? instructor = _dbContext.Instructors.FirstOrDefault(it => it.Id == instructorUpdate.Id);
             if (instructor != null)
             {
                 instructor.Id = instructorUpdate.Id;
@@ -67,6 +69,7 @@ namespace InstructionModel.Controllers
                 instructor.IsTenured = instructorUpdate.IsTenured;
                 instructor.Rank = instructorUpdate.Rank;
                 instructor.HiringDate = instructorUpdate.HiringDate;
+                _dbContext.SaveChanges();
 
             }
             return RedirectToAction("IndexInstructor");
@@ -75,7 +78,7 @@ namespace InstructionModel.Controllers
         [HttpGet]   
         public IActionResult DeleteInstructor(Instructor instructorDelete)
         {
-            Instructor? instructor = _fakeData.InstructorList.FirstOrDefault(it => it.Id == instructorDelete.Id);
+            Instructor? instructor = _dbContext.Instructors.FirstOrDefault(it => it.Id == instructorDelete.Id);
             if (instructor != null)
             {
                 return View(instructor);
@@ -87,9 +90,10 @@ namespace InstructionModel.Controllers
         [HttpPost]
         public IActionResult DeleteInstructor(int id)
         {
-            Instructor? instructor = _fakeData.InstructorList.FirstOrDefault(it => it.Id == id);
+            Instructor? instructor = _dbContext.Instructors.FirstOrDefault(it => it.Id == id);
             if (instructor !=null){
-                _fakeData.InstructorList.Remove(instructor);
+                _dbContext.Instructors.Remove(instructor);
+                _dbContext.SaveChanges();
                 return RedirectToAction("IndexInstructor");
             }
 
