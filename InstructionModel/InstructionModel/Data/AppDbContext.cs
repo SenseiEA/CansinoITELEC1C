@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using InstructionModel.Models;
 
 namespace LabActivtity2.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<User>
     {
         public DbSet<Student> Students { get; set; }     
         public DbSet<Instructor> Instructors { get; set; }

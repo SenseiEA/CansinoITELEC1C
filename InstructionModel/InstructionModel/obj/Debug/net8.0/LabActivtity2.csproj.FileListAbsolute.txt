@@ -528,3 +528,6 @@ C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionMod
 C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\obj\Debug\net8.0\LabActivtity2.pdb
 C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\obj\Debug\net8.0\LabActivtity2.genruntimeconfig.cache
 C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\obj\Debug\net8.0\ref\LabActivtity2.dll
+C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel\obj\Debug\net8.0\LabActivtity2.MvcApplicationPartsAssemblyInfo.cs
