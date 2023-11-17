@@ -12,9 +12,9 @@ namespace LabActivtity2.Controllers
             _signInManager = signInManager;
         }
         //GET : /<controller>/
-        public IActionResult login()
+        public IActionResult Login()
         {
-            return View();
+            return View(Login);
         }
     }
 }

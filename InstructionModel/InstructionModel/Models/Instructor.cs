@@ -17,7 +17,7 @@ namespace InstructionModel.Models
     }
     public class Instructor
     {
-        [Required]
+        [Key]
         public int Id { get; set; }
 
         [Display (Name = "First Name")]
