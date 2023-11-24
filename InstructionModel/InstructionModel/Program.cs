@@ -42,16 +42,16 @@ app.UseStaticFiles();
 
 app.UseAuthentication();
 
-app.UseAuthorization();
+
 
 
 //ensure database is created
 var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<AppDbContext>();
 context.Database.EnsureCreated();
-context.Database.EnsureDeleted();
 
 app.UseRouting();
 
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",

@@ -2,7 +2,7 @@
 using InstructionModel.Models;
 using LabActivtity2.Services;
 using LabActivtity2.Data;
-
+using Microsoft.AspNetCore.Authorization;
 
 namespace InstructionModel.Controllers
 {
@@ -15,6 +15,7 @@ namespace InstructionModel.Controllers
             _dbContext = dbContext;
         }
 
+        [Authorize]
         public IActionResult IndexStudent()
         {
             return View(_dbContext.Students);

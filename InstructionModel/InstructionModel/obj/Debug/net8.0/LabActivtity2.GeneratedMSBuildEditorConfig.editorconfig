@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Sensei\Documents\GitHub\CansinoITELEC1C\InstructionModel\InstructionModel
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,10 +60,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Instructor/ShowDetailInstructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxTaG93RGV0YWlsSW5zdHJ1Y3Rvci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sensei/Documents/GitHub/CansinoITELEC1C/InstructionModel/InstructionModel/Views/Shared/Error.cshtml]
